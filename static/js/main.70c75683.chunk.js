@@ -1,2 +1,0 @@
-(this["webpackJsonpmapache-coffee"]=this["webpackJsonpmapache-coffee"]||[]).push([[0],{11:function(e,c,n){"use strict";n.r(c);var t=n(1),a=n.n(t),o=n(3),r=n.n(o),s=(n(8),n(9),n(0));var i=function(){return Object(s.jsx)("main",{className:"bg-red-700",children:"Hola"})};r.a.render(Object(s.jsx)(a.a.StrictMode,{children:Object(s.jsx)(i,{})}),document.getElementById("root"))},8:function(e,c,n){},9:function(e,c,n){}},[[11,1,2]]]);
-//# sourceMappingURL=main.70c75683.chunk.js.map
