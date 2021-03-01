@@ -1,0 +1,8 @@
+.trabajos-item {
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.trabajos-item:hover {
+  filter: brightness(0.8);
+  transform: scale(0.95);
+}
