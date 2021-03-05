@@ -9,11 +9,11 @@ function Trabajos(props: any) {
   let trabajosItems: trabajoItem[] = [
     {
       name: 'T1_4',
-      imgURL: '',
+      imgURL: 'T1_4.png',
     },
     {
       name: 'T1_5',
-      imgURL: '',
+      imgURL: 'T1_5.png',
     },
     {
       name: 'T1_7',
@@ -39,7 +39,11 @@ function Trabajos(props: any) {
           >
             <Link to={trabajo.name}>
               <img
-                src="https://miro.medium.com/max/1838/1*MI686k5sDQrISBM6L8pf5A.jpeg"
+                src={
+                  trabajo.imgURL
+                    ? process.env.PUBLIC_URL + '/thumbnails/' + trabajo.imgURL
+                    : process.env.PUBLIC_URL + '/thumbnails/default.png'
+                }
                 alt=""
                 className="w-full"
               />

@@ -17,7 +17,15 @@ function T1_4(props: any) {
           <th>Viernes</th>
         </thead>
         <tr>
-          <td className="hora">3:00PM - 5:00PM</td>
+          <td className="hora">3:00PM - 4:00PM</td>
+          <td className="web">Diseño de paginas web</td>
+          <td></td>
+          <td className="web">Diseño de paginas web</td>
+          <td></td>
+          <td className="web async">Diseño de paginas web</td>
+        </tr>
+        <tr>
+          <td className="hora">4:00PM - 5:00PM</td>
           <td className="web">Diseño de paginas web</td>
           <td></td>
           <td className="web">Diseño de paginas web</td>
