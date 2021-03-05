@@ -4,7 +4,7 @@ function T1_5(props: any) {
   return (
     <main className="min-h-screen bg-white flex justify-center items-center">
       <HomeBtn />
-      <section className="p-16 my-16 border-2 border-black border-dotted">
+      <section className="p-4 w-full md:w-auto md:p-16 md:my-16 border-2 border-black border-dotted">
         <h1 className="uppercase text-4xl font-bold text-center pb-4">
           Checkout
         </h1>
@@ -15,7 +15,7 @@ function T1_5(props: any) {
           </h2>
 
           <form action="" className="flex flex-col gap-4">
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <div className="flex flex-col">
                 <input
                   type="text"
@@ -32,7 +32,7 @@ function T1_5(props: any) {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <div className="flex flex-col">
                 <input
                   type="text"
@@ -58,7 +58,7 @@ function T1_5(props: any) {
           </h2>
 
           <form action="" className="flex flex-col gap-4">
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <div className="flex flex-col">
                 <input
                   type="text"
@@ -75,7 +75,7 @@ function T1_5(props: any) {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <div className="flex flex-col">
                 <input
                   type="text"
