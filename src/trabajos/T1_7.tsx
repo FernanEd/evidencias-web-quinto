@@ -28,7 +28,7 @@ function T1_7(props: any) {
           </p>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-blue-800 uppercase">
+          <h2 className="text-lg font-bold text-green-800 uppercase">
             Mis hobbies
           </h2>
           <ul className="list-disc pl-4">
@@ -41,7 +41,7 @@ function T1_7(props: any) {
           </ul>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-blue-800 uppercase">
+          <h2 className="text-lg font-bold text-red-800 uppercase">
             Top mis peliculas favoritas
           </h2>
           <ol className="list-decimal pl-4">
@@ -53,7 +53,7 @@ function T1_7(props: any) {
           </ol>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-blue-800 uppercase">
+          <h2 className="text-lg font-bold text-yellow-800 uppercase">
             Top mis series favoritas
           </h2>
           <ol className="list-decimal pl-4">
@@ -65,7 +65,7 @@ function T1_7(props: any) {
           </ol>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-blue-800 uppercase">
+          <h2 className="text-lg font-bold text-purple-800 uppercase">
             Top mis albumes favoritos
           </h2>
           <ol className="list-decimal pl-4">
@@ -77,7 +77,7 @@ function T1_7(props: any) {
           </ol>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-blue-800 uppercase">
+          <h2 className="text-lg font-bold text-gray-800 uppercase">
             Top mi videojuegos favoritos
           </h2>
           <ol className="list-decimal pl-4">
