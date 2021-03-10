@@ -1,21 +1,25 @@
 import HomeBtn from "../components/HomeBtn";
+import { FaChessKnight, FaMusic, FaGamepad, FaUserAlt } from "react-icons/fa";
+import { BiCameraMovie } from "react-icons/bi";
+import { MdMovie } from "react-icons/md";
 
 function T1_7(props: any) {
   return (
-    <main className="min-h-screen bg-blue-300 flex justify-center items-center">
+    <main className="min-h-screen bg-pink-800 flex justify-center items-center">
       <HomeBtn />
 
-      <section className="bg-white p-2 w-full md:rounded md:p-8 md:max-w-xl shadow-lg flex flex-col gap-4">
+      <section className="bg-white p-2 w-full md:rounded md:p-8 md:max-w-xl shadow-lg flex flex-col gap-8 sm:my-4">
         <article>
           <img
             src={process.env.PUBLIC_URL + "/yo3.jpg"}
             alt=""
-            className="w-10/12 sm:w-48 mx-auto rounded-full"
+            className="w-10/12 sm:w-48 mx-auto rounded-full border-4 border-blue-800"
           />
         </article>
         <article>
-          <h2 className="text-lg font-bold text-blue-800 uppercase">
+          <h2 className="text-lg font-bold text-blue-800 uppercase flex gap-2 items-center">
             Sobre mi
+            <FaUserAlt />
           </h2>
           <p>
             Mi nombre es{" "}
@@ -28,8 +32,9 @@ function T1_7(props: any) {
           </p>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-green-800 uppercase">
+          <h2 className="text-lg font-bold text-green-800 uppercase flex gap-2 items-center">
             Mis hobbies
+            <FaChessKnight />
           </h2>
           <ul className="list-disc pl-4">
             <li>Ajedrez</li>
@@ -41,8 +46,9 @@ function T1_7(props: any) {
           </ul>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-red-800 uppercase">
+          <h2 className="text-lg font-bold text-red-800 uppercase flex gap-2 items-center">
             Top mis peliculas favoritas
+            <BiCameraMovie />
           </h2>
           <ol className="list-decimal pl-4">
             <li>Ciudad de dios</li>
@@ -53,8 +59,9 @@ function T1_7(props: any) {
           </ol>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-yellow-800 uppercase">
+          <h2 className="text-lg font-bold text-yellow-800 uppercase flex gap-2 items-center">
             Top mis series favoritas
+            <MdMovie />
           </h2>
           <ol className="list-decimal pl-4">
             <li>Breaking Bad</li>
@@ -65,8 +72,9 @@ function T1_7(props: any) {
           </ol>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-purple-800 uppercase">
+          <h2 className="text-lg font-bold text-purple-800 uppercase flex gap-2 items-center">
             Top mis albumes favoritos
+            <FaMusic />
           </h2>
           <ol className="list-decimal pl-4">
             <li>Gorillaz - Plastic Beach</li>
@@ -77,8 +85,9 @@ function T1_7(props: any) {
           </ol>
         </article>
         <article>
-          <h2 className="text-lg font-bold text-gray-800 uppercase">
+          <h2 className="text-lg font-bold text-gray-800 uppercase flex gap-2 items-center">
             Top mi videojuegos favoritos
+            <FaGamepad />
           </h2>
           <ol className="list-decimal pl-4">
             <li>Terraria</li>
