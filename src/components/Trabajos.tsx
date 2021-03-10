@@ -1,4 +1,4 @@
-import { Link } from '@reach/router';
+import { Link } from "@reach/router";
 
 function Trabajos(props: any) {
   interface trabajoItem {
@@ -8,16 +8,16 @@ function Trabajos(props: any) {
 
   let trabajosItems: trabajoItem[] = [
     {
-      name: 'T1_4',
-      imgURL: 'T1_4.png',
+      name: "T1_4",
+      imgURL: "T1_4.png",
     },
     {
-      name: 'T1_5',
-      imgURL: 'T1_5.png',
+      name: "T1_5",
+      imgURL: "T1_5.png",
     },
     {
-      name: 'T1_7',
-      imgURL: '',
+      name: "T1_7",
+      imgURL: "T1_7.png",
     },
   ];
 
@@ -41,15 +41,15 @@ function Trabajos(props: any) {
               <img
                 src={
                   trabajo.imgURL
-                    ? process.env.PUBLIC_URL + '/thumbnails/' + trabajo.imgURL
-                    : process.env.PUBLIC_URL + '/thumbnails/default.png'
+                    ? process.env.PUBLIC_URL + "/thumbnails/" + trabajo.imgURL
+                    : process.env.PUBLIC_URL + "/thumbnails/default.png"
                 }
                 alt=""
                 className="w-full"
               />
             </Link>
             <p className="text-xl text-center py-2">
-              {trabajo.name.replace('_', '.')}
+              {trabajo.name.replace("_", ".")}
             </p>
           </article>
         ))}
