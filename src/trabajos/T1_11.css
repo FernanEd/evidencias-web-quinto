@@ -1,0 +1,107 @@
+#body {
+  background-image: url(https://estaticos.miarevista.es/uploads/images/recipe/554207ab0a73fed41f01dc99/sandwich-pavo_0.jpg);
+  background-size: cover;
+  color: #333333;
+  min-height: 100vh;
+}
+
+header {
+  background: #f8f8f6;
+  width: 80%;
+  margin: auto;
+  padding: 1.5rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+#logo {
+  font-size: 2.5rem;
+  color: #928a68;
+  margin: 0;
+}
+
+.highlight {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fb5510;
+}
+
+.active-link {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #be6953;
+}
+
+.main-msg {
+  text-align: center;
+  padding: 4rem 0;
+  color: white;
+}
+
+.main-msg p {
+  font-size: 1.5rem;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.menu-item {
+  overflow: clip;
+  width: 25%;
+
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-item-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.menu-item-text .item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #be6953;
+}
+
+.menu-item .item-desc {
+  font-size: 0.9rem;
+}
+
+.menu-item-text .item-desc {
+  color: gray;
+}
