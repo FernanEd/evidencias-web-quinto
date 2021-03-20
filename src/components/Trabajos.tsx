@@ -23,6 +23,10 @@ function Trabajos(props: any) {
       name: "T1_11",
       imgURL: "T1_11.png",
     },
+    {
+      name: "T1_12",
+      imgURL: "T1_12.png",
+    },
   ];
 
   return (
