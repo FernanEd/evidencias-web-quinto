@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/evidencias-web-quinto/static/css/main.dafcb6e8.chunk.css",
-    "main.js": "/evidencias-web-quinto/static/js/main.b168116a.chunk.js",
-    "main.js.map": "/evidencias-web-quinto/static/js/main.b168116a.chunk.js.map",
+    "main.css": "/evidencias-web-quinto/static/css/main.bb2b88c9.chunk.css",
+    "main.js": "/evidencias-web-quinto/static/js/main.51acad2d.chunk.js",
+    "main.js.map": "/evidencias-web-quinto/static/js/main.51acad2d.chunk.js.map",
     "runtime-main.js": "/evidencias-web-quinto/static/js/runtime-main.5a8cc353.js",
     "runtime-main.js.map": "/evidencias-web-quinto/static/js/runtime-main.5a8cc353.js.map",
     "static/js/2.de206337.chunk.js": "/evidencias-web-quinto/static/js/2.de206337.chunk.js",
     "static/js/2.de206337.chunk.js.map": "/evidencias-web-quinto/static/js/2.de206337.chunk.js.map",
     "index.html": "/evidencias-web-quinto/index.html",
-    "static/css/main.dafcb6e8.chunk.css.map": "/evidencias-web-quinto/static/css/main.dafcb6e8.chunk.css.map",
+    "static/css/main.bb2b88c9.chunk.css.map": "/evidencias-web-quinto/static/css/main.bb2b88c9.chunk.css.map",
     "static/js/2.de206337.chunk.js.LICENSE.txt": "/evidencias-web-quinto/static/js/2.de206337.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a8cc353.js",
     "static/js/2.de206337.chunk.js",
-    "static/css/main.dafcb6e8.chunk.css",
-    "static/js/main.b168116a.chunk.js"
+    "static/css/main.bb2b88c9.chunk.css",
+    "static/js/main.51acad2d.chunk.js"
   ]
 }
