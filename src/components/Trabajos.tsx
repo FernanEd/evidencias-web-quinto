@@ -4,6 +4,7 @@ function Trabajos(props: any) {
   interface trabajoItem {
     name: string;
     imgURL: string;
+    link?: string;
   }
 
   let trabajosItems: trabajoItem[] = [
@@ -27,6 +28,11 @@ function Trabajos(props: any) {
       name: "T1_12",
       imgURL: "T1_12.png",
     },
+    {
+      name: "T2_3",
+      imgURL: "T2_3.png",
+      link: "https://fernaned.github.io/evidencias-web-quinto-eventos/",
+    },
   ];
 
   return (
@@ -45,17 +51,32 @@ function Trabajos(props: any) {
             flex flex-col items-center max-w-sm 
             overflow-hidden cursor-pointer"
           >
-            <Link to={trabajo.name}>
-              <img
-                src={
-                  trabajo.imgURL
-                    ? process.env.PUBLIC_URL + "/thumbnails/" + trabajo.imgURL
-                    : process.env.PUBLIC_URL + "/thumbnails/default.png"
-                }
-                alt=""
-                className="w-full"
-              />
-            </Link>
+            {trabajo.link ? (
+              <a href={trabajo.link}>
+                <img
+                  src={
+                    trabajo.imgURL
+                      ? process.env.PUBLIC_URL + "/thumbnails/" + trabajo.imgURL
+                      : process.env.PUBLIC_URL + "/thumbnails/default.png"
+                  }
+                  alt=""
+                  className="w-full"
+                />
+              </a>
+            ) : (
+              <Link to={trabajo.name}>
+                <img
+                  src={
+                    trabajo.imgURL
+                      ? process.env.PUBLIC_URL + "/thumbnails/" + trabajo.imgURL
+                      : process.env.PUBLIC_URL + "/thumbnails/default.png"
+                  }
+                  alt=""
+                  className="w-full"
+                />
+              </Link>
+            )}
+
             <p className="text-xl text-center py-2">
               {trabajo.name.replace("_", ".")}
             </p>

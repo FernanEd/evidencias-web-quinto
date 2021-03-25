@@ -2,7 +2,7 @@
   "name": "evidencias-web-quinto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fernaned.github.io/evidencias-web-quinto",
+  "homepage": "https://fernaned.github.io/evidencias-web-quinto/",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@reach/router": "^1.3.4",
