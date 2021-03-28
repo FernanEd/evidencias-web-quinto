@@ -33,6 +33,16 @@ function Trabajos(props: any) {
       imgURL: "T2_3.png",
       link: "https://fernaned.github.io/evidencias-web-quinto-eventos/",
     },
+    {
+      name: "T2_4",
+      imgURL: "T2_4.png",
+      link: "https://fernaned.github.io/tic-tac-toe/",
+    },
+    {
+      name: "T2_5",
+      imgURL: "T2_5.png",
+      link: "https://fernaned.github.io/evidencias-web-quinto-reloj/",
+    },
   ];
 
   return (
