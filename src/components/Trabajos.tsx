@@ -43,6 +43,11 @@ function Trabajos(props: any) {
       imgURL: "T2_5.png",
       link: "https://fernaned.github.io/evidencias-web-quinto-reloj/",
     },
+    {
+      name: "T2_6",
+      imgURL: "T2_6.png",
+      link: "https://fernaned.github.io/2_6_formularioJSON/",
+    },
   ];
 
   return (
