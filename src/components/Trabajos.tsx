@@ -48,6 +48,26 @@ function Trabajos(props: any) {
       imgURL: "T2_6.png",
       link: "https://fernaned.github.io/2_6_formularioJSON/",
     },
+    {
+      name: "T2_7",
+      imgURL: "T2_7.png",
+      link: "https://fernaned.github.io/2_7_pronosticotiempo/",
+    },
+    {
+      name: "T2_8",
+      imgURL: "T2_8.png",
+      link: "https://fernaned.github.io/2_8_pronosticojquery/",
+    },
+    {
+      name: "T2_9",
+      imgURL: "T2_9.png",
+      link: "https://fernaned.github.io/2_9_pronosticomapa/",
+    },
+    {
+      name: "T2_10",
+      imgURL: "T2_10.png",
+      link: "https://fernaned.github.io/paginaune_mockup/",
+    },
   ];
 
   return (
